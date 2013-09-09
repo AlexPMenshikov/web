@@ -12,5 +12,5 @@ print 'client is at', addr
 data = conn.recv(1024)
 c=conn.getpeername
 print(c)
-conn.send('HI 2 ALL')
+conn.send(data)
 conn.close()
